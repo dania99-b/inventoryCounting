@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activities.SettingActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:text="The DNS Configuration "/>
+
+        <EditText
+            android:id="@+id/ipSettingET"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:text="Time to ReCheck (in seconds):"/>
+
+        <EditText
+            android:id="@+id/reCheckTimeET"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/saveSettingBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+
+    <Button
+        android:id="@+id/deleteAllDataBTN"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Delete All data"/>
+
+    <Button
+        android:id="@+id/deleteOperationDataBTN"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="delete operations data"/>
+
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settingMenu"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Setting"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/sync"
+        android:icon="@drawable/sync"
+        android:title="Sync"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/check"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="Check"
+        app:showAsAction="ifRoom" />
+
+</menu>

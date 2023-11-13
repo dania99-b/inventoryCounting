@@ -1,0 +1,76 @@
+<LinearLayout
+    android:id="@+id/MovementLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <AutoCompleteTextView
+        android:id="@+id/Autocompletewarehouse222"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Scan Location or Warehouse" />
+
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Code" />
+
+    <EditText
+        android:id="@+id/editText22"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity" />
+
+
+
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <Spinner
+        android:id="@+id/spinner22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stage" />
+
+
+
+    <Spinner
+        android:id="@+id/spinner44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Movement Type" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="16dp">
+
+
+        <Button
+            android:id="@+id/cancelButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+</LinearLayout>
